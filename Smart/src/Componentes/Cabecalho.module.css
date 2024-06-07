@@ -1,0 +1,15 @@
+.conteiner{
+    background-color: var(--roxo-escuro);
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.conteiner p {
+    font-size: 30px;
+    color: var(--cinza-claro);
+    
+}

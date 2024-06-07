@@ -1,0 +1,57 @@
+.conteiner {
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    color: #316EF3 ;
+    cursor:pointer;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20PX;
+}
+
+table {
+    background-color: var(--cinza-claro);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Garante largura uniforme das colunas */
+    margin-left: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+th, td {
+    border: 1px solid var(--roxo-claro); /* Define as bordas para células */
+    padding: 8px; /* Adiciona padding às células */
+    text-align: left; /* Alinha o texto à esquerda */
+    width: calc(100% / 7); /* Divide a largura uniformemente entre as colunas */
+    text-align: center;
+    vertical-align: center;
+}
+
+th {
+    background-color: var(--roxo-esc--cinza-claro); /* Cor de fundo para cabeçalhos */
+    color: black; /* Cor do texto dos cabeçalhos */
+    text-align: center;
+    vertical-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--cinza-claro); /* Alterna a cor de fundo para linhas pares */
+}
