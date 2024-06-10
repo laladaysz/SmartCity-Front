@@ -10,12 +10,20 @@
 
 
 .botao {
-    background-color: var(--roxo-escuro);
-    color: var(--cinza-claro);
-    padding: 10px;
+    background-color:#343536;
+    color: #fff;
+    border:none;
+    padding: 15px;
     border-radius: 8px;
-    margin-top: 3%;
-}
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    
+    }
+    .botao:hover{
+    background-color:#1c1c1c
+    }
 .formulario {
     
     display: flex;
